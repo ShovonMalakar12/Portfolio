@@ -44,7 +44,7 @@ body {
 .logo {
     font-size: 3rem;
     color: var(--text-color);
-    font-weight: 800;
+    font-weight: 500;
     cursor: pointer;
     transition: 0.3s ease;
 }
@@ -144,7 +144,7 @@ span {
 }
 
 .home-content p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 500;
     line-height: 1.8;
     max-width: 1000px;
@@ -213,8 +213,8 @@ span {
 }
 
 .text-animation {
-    font-size: 34px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 400;
     min-width: 280px;
 
 }
@@ -394,14 +394,14 @@ span {
     font-size: 20px;
     color: white;
     margin: 0 0 10px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .timeline-content p {
     color: white;
     font-size: 16px;
     font-weight: 300;
-    line-height: 22px;
+    line-height: 20px;
 }
 
 ::-webkit-scrollbar {
@@ -437,7 +437,7 @@ span {
 
 .service-box {
     background-color: var(--main-color);
-    height: 410px;
+    height: 350px;
     border-radius: 3rem;
     border: 5px solid transparent;
     cursor: pointer;
@@ -454,25 +454,25 @@ span {
 .service-box .service-info {
     display: flex;
     flex-direction: column;
-    text-align: left;
+    text-align:left;
     max-height: 200px;
     justify-content: left;
     align-items: center;
-    padding: 0rem 5rem;
+    padding: 0rem 3rem;
 
 }
 
 .service-info h4 {
     font-size: 2rem;
-    font-weight: 800;
+    font-weight: 600;
     line-height: 2;
 }
 
 .service-info p {
-    font-size: 1.2rem;
-    font-weight: 600;
+    font-size: 1.1rem;
+    font-weight: 400;
     max-height: 100px;
-    line-height: 1.7;
+    line-height: 1.5;
     margin: auto;
 }
 
